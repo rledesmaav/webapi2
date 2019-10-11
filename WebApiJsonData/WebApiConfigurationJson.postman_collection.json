@@ -1,0 +1,29 @@
+{
+	"info": {
+		"_postman_id": "f650a571-e847-4d0a-815f-00a6fdfb6eac",
+		"name": "WebApiConfigurationJson",
+		"description": "Utilización de archivo de configuracion json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ObtenerEntidadConfiguracion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:44399/api/info/"
+			},
+			"response": []
+		},
+		{
+			"name": "ObtenerDatoConfiguracion2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:44399/api/info/opcion2"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
